@@ -1,8 +1,8 @@
 
-var clear = 0;
-var pink = 0;
-var purple = 0;
-var yellow = 0;
+var clear = Math.floor(Math.random()*12+1)
+var pink = Math.floor(Math.random()*12+1)
+var purple = Math.floor(Math.random()*12+1)
+var yellow = Math.floor(Math.random()*12+1)
 
 var wins = 0;
 var losses = 0;

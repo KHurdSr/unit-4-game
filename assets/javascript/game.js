@@ -45,6 +45,7 @@ $(document).ready(function() {
 
   
   $("#one").on("click", function() {
+    console.log('hi');
     if (clear === 0) {
       clear = getRandomInt(1, 12);
       console.log(clear);
@@ -54,6 +55,7 @@ $(document).ready(function() {
   
   
   $("#two").on("click", function() {
+    // console.log('hey')
     if (pink === 0) {
       pink = getRandomInt(1, 12);
       console.log(pink);
